@@ -1,0 +1,41 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center ;
+    margin-bottom: 80px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer .references_container{
+    display: flex;
+    color: #837565;
+    font-size: 8px;
+    font-weight: bold;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.footer .references_container .divisor{
+    width: 2px;
+    height: 10px;
+    background-color: #837565;
+}
+
+.footer .socialnetwork_container{
+    display: flex;
+    gap: 10px;
+    margin-left: 80px;
+}
+
+.footer .socialnetwork_container .socialnetwork_ancor{
+    text-decoration: none;
+    color: #9A7260;
+}
+
+.footer .socialnetwork_container .contact{
+    rotate: 90deg;
+    font-size: 8px;
+    font-weight: extra-light;
+}
