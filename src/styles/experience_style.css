@@ -13,11 +13,23 @@ body {
 
 .swiper {
     width: 100%;
-    max-width: 900px; /* Ajuste conforme necessário */
+    max-width: 900px; 
+}
+
+.swiper-slide-active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .swiper-pagination{
    margin-bottom: 250px;
+}
+
+.swiper-pagination span{
+    background-color: #C8A349;
 }
 
 .experience_card{

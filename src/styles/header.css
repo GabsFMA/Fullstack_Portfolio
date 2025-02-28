@@ -15,3 +15,8 @@
     color: #CD8B4F;
     font-weight: bold;
 }
+
+.header .navbar a:hover{
+    transform: scale(1.2);
+    color: #ba5f09;
+}
