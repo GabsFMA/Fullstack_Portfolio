@@ -11,7 +11,7 @@
 .footer .references_container{
     display: flex;
     color: #837565;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: bold;
     gap: 10px;
     margin-left: 20px;
@@ -36,6 +36,6 @@
 
 .footer .socialnetwork_container .contact{
     rotate: 90deg;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: extra-light;
 }

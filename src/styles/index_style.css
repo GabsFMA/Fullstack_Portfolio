@@ -5,7 +5,13 @@ body{
 
 .main_content{
     color: #CD8B4F;
-    width: 100%;
+    width: calc(80% - 150px); /* Ajusta a largura levando em conta a margem */
+    margin-left: 150px; /* Define uma margem fixa à esquerda */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos filhos */
+    justify-content: center;    
 }
 
 .main_content .introduction_container{
