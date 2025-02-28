@@ -34,7 +34,7 @@ body {
 
 .experience_card{
     background-color:#e5e5e5;
-    border: 2px solid #C8A349;
+    border: 4px solid #C8A349;
     display: flex;
     flex-direction: column;
     align-items: center;
