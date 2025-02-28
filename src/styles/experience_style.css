@@ -1,4 +1,44 @@
-body{
-    background-color: #E5E5E5;
-    font-family: 'Roboto', sans-serif;
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+.experience_card{
+    background-color:#e5e5e5;
+    border: 2px solid #C8A349;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.experience_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience_title{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.experience_place, .experience_period{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.experience_description{
+    margin: 15px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.experience_description .description_text{
+    font-size: 14px;
+    color: #C8A349;
 }
