@@ -1,6 +1,7 @@
 .header{
     display: flex;
     justify-content: center;
+    
 }
 
 .header .navbar{
@@ -14,6 +15,7 @@
     text-decoration: none;
     color: #CD8B4F;
     font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .header .navbar a:hover{
