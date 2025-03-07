@@ -1,41 +1,72 @@
-.footer{
-    position: fixed;
-    bottom: 0;
+.footer {
     display: flex;
-    align-items: center ;
-    margin-bottom: 80px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
     width: 100%;
-    justify-content: space-around;
+    padding: 20px 0;
 }
 
-.footer .references_container{
+.references_container {
     display: flex;
+    align-items: center;
     color: #837565;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     gap: 10px;
     margin-left: 20px;
 }
 
-.footer .references_container .divisor{
+.references_container .divisor {
     width: 2px;
     height: 10px;
     background-color: #837565;
 }
 
-.footer .socialnetwork_container{
+.socialnetwork_container {
     display: flex;
-    gap: 10px;
-    margin-left: 80px;
+    gap: 15px;
+    margin-right: 20px;
 }
 
-.footer .socialnetwork_container .socialnetwork_ancor{
+.socialnetwork_ancor {
     text-decoration: none;
     color: #9A7260;
+    font-size: 16px;
 }
 
-.footer .socialnetwork_container .contact{
-    rotate: 90deg;
+.contact {
     font-size: 12px;
-    font-weight: extra-light;
+    font-weight: lighter;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .references_container {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 5px;
+    }
+
+    .divisor {
+        display: none; 
+    }
+
+    .socialnetwork_container {
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .contact {
+        display: none;
+    }
+    
 }
