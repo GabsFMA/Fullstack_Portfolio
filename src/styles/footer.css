@@ -39,6 +39,7 @@
     font-size: 12px;
     font-weight: lighter;
     transform: rotate(90deg);
+    margin-bottom: 4px;
 }
 
 @media screen and (max-width: 768px) {
