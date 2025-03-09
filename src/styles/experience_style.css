@@ -9,7 +9,7 @@ html, body{
 
 .main_content {
     flex: 1;
-}
+} 
 
 .main_content {
     display: flex;
@@ -35,17 +35,32 @@ html, body{
     margin-right: 10px;
 }
 
-.swiper-pagination {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    z-index: 10;
+.swiper-button-next, 
+.swiper-button-prev {
+    color: #C8A349; /* Cor dos botões */
+    width: 30px; /* Largura menor */
+    height: 30px; /* Altura menor */
 }
 
-.swiper-pagination span{
-    background-color: #C8A349;
+@media screen and (max-width: 768px) {
+    .swiper-button-next {
+        right: 0px; /* Aproxima ainda mais em telas pequenas */
+    }
+    
+    .swiper-button-prev {
+        left: 0px; /* Aproxima ainda mais em telas pequenas */
+    }
 }
+
+
+.swiper-button-next {
+    right: 5px; /* Aproxima o botão direito do card */
+}
+
+.swiper-button-prev {
+    left: 5px; /* Aproxima o botão esquerdo do card */
+}
+
 
 .experience_card{
     background-color:#e5e5e5;
