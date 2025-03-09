@@ -37,39 +37,37 @@ html, body{
 
 .swiper-slide{
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */ 
+    justify-content: center; 
+    align-items: center; 
 }
 
 @media screen and (max-width: 768px) {
     .swiper {
-        max-width: 300px; /* Define um tamanho menor para centralizar */
+        max-width: 300px; 
     }
 
     .experience_card {
-        width: 100%; /* Garante que o card ocupe toda a largura do Swiper */
+        width: 100%; 
     }
 }
 
 @media screen and (max-width: 768px) {
     .swiper-button-next {
-        right: 0px; /* Aproxima ainda mais em telas pequenas */
+        right: 0px; 
     }
     
     .swiper-button-prev {
-        left: 0px; /* Aproxima ainda mais em telas pequenas */
+        left: 0px; 
     }
 }
 
-
 .swiper-button-next {
-    right: 5px; /* Aproxima o botão direito do card */
+    right: 5px; 
 }
 
 .swiper-button-prev {
-    left: 5px; /* Aproxima o botão esquerdo do card */
+    left: 5px; 
 }
-
 
 .experience_card{
     background-color:#e5e5e5;

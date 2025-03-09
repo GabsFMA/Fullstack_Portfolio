@@ -6,10 +6,10 @@ const swiper = new Swiper('.swiper', {
         prevEl: ".swiper-button-prev",
     },
     breakpoints: {
-        0: { // Para telas muito pequenas
+        0: { 
             slidesPerView: 1,
             spaceBetween: 10,
-            centeredSlides: true, // Mantém o slide centralizado
+            centeredSlides: true, 
         },
         768: {
             slidesPerView: 1,
