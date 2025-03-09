@@ -5,19 +5,25 @@ const swiper = new Swiper('.swiper', {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-      breakpoints: {
+    breakpoints: {
+        0: { // Para telas muito pequenas
+            slidesPerView: 1,
+            spaceBetween: 10,
+            centeredSlides: true, // Mantém o slide centralizado
+        },
         768: {
             slidesPerView: 1,
             spaceBetween: 10,
+            centeredSlides: true, 
         },
         1024: {
             slidesPerView: 2,
-            spaceBetween: 20
+            spaceBetween: 20,
+            centeredSlides: true, 
         },
         1280: {
             slidesPerView: 3,
             spaceBetween: 30
         }
     }
-    
-  });
+});
