@@ -41,6 +41,11 @@ html, body{
     align-items: center; 
 }
 
+.swiper-wrapper {
+    display: flex;
+    align-items: stretch; /* Faz com que todos os cards tenham a mesma altura */
+}
+
 @media screen and (max-width: 768px) {
     .swiper {
         max-width: 300px; 
@@ -77,15 +82,17 @@ html, body{
     align-items: center;
     justify-content: center;
     width: 260px;
+    height: 400px;
     gap: 30px;
     border-radius: 8px;
 }
 
 .experience_info{
+    flex: 1; /* Permite que o conteúdo ocupe o espaço disponível de forma equilibrada */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .experience_title{
@@ -99,9 +106,12 @@ html, body{
 }
 
 .experience_description{
-    margin: 15px;
-    margin-bottom: 80px;
+    flex: 1; /* Garante que a descrição ocupe um espaço proporcional */
+    display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: justify;
+    max-width: 90%;
 }
 
 .experience_description .description_text{
