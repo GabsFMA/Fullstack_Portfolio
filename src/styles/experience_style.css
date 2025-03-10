@@ -68,10 +68,19 @@ html, body{
 
 .swiper-button-next {
     right: 5px; 
+    color: #C8A349;
 }
 
 .swiper-button-prev {
     left: 5px; 
+}
+
+.swiper-button-prev::after {
+    color: #C8A349;
+}
+
+.swiper-button-next::after {
+    color: #C8A349;
 }
 
 .experience_card{
