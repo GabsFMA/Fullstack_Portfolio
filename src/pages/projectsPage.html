@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projetos</title>
+    <link rel="stylesheet" href="/src/styles/header.css">
+    <link rel="stylesheet" href="/src/styles/footer.css">
+    <link rel="stylesheet" href="/src/styles/projects.css">
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="navbar">
+          <a class="navbar_ancor" href="../../index.html">
+            <span class="navbar_option">INÍCIO</span>
+          </a>
+          <a class="navbar_ancor" href="/src/pages/experiencePage.html">
+            <span class="navbar_option">EXPERIÊNCIAS</span>
+          </a>
+          <a class="navbar_ancor" href="/src/pages/skillsPage.html">
+            <span class="navbar_option">HABILIDADES</span>
+          </a>
+          <a class="navbar_ancor" href="/src/pages/projectsPage.html">
+            <span class="navbar_option">PROJETOS</span>
+          </a>
+        </nav>
+      </header>
+      <main class="main_content">
+        <div class="projects_container">
+          <div class="project_card">
+            <a href="https://geradordetiquetes.vercel.app/" target="_blank">
+                <div>
+                    <img src="/src/assets/images/Ticket.webp" alt="">
+                </div>
+            </a>
+            <h1 class="project_title">Gerador de tickets</h1>
+            <p class="project_description">Aplicação baseada em um formulário para eventos que leva à geração de um ticket com as infomações inseridas no formulário</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScipt</li>
+            </ul>
+          </div>
+          
+          <div class="project_card">
+            <a href="https://agecalculatorapp-seven.vercel.app/" target="_blank">
+                <div>
+                    <img src="/src/assets/images/AgeCalcutor.webp" alt="img_age_calculator">
+                </div>
+            </a>
+            <h1 class="project_title">Calculadora de idade</h1>
+            <p class="project_description">Aplicação feita para calcular quantos dias, meses e anos uma pessoa tem de vida, de acordo com o input feito</p>
+            <ul>
+                <li>REACT</li>
+                <li>VITE</li>
+                <li>Tailwind</li>
+            </ul>
+          </div>
+          <div class="project_card">
+            <a href="https://perpetual-web-rust.vercel.app" target="_blank">
+                <div>
+                    <img src="/src/assets/images/desenvolvendo.png" alt="img_desenvolvendo">
+                </div>
+            </a>
+            <h1 class="project_title">Avaliador áudio visual</h1>
+            <p class="project_description">Aplicação genérica de avaliação de produções audio visuais, informa onde cada produção está disponível e permite o usuário dizer o que achou</p>
+            <ul>
+                <li>REACT</li>
+                <li>VITE</li>
+                <li>Tailwind</li>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="references_container">
+          <span class="reference">SENAI CIMATEC</span>
+          <div class="divisor"></div>
+          <span class="reference">Fullstack</span>
+          <div class="divisor"></div>
+          <span class="reference">GabsFMA</span>
+        </div>
+        <div class="socialnetwork_container">
+          <a class="socialnetwork_ancor" href="https://www.instagram.com/universidadecimatec?igsh=MWJsczBsNmp0MDRncw==" target="_blank">
+            <span class="fa-brands fa-instagram"></span>
+          </a>
+          <a class="socialnetwork_ancor" href="https://www.linkedin.com/in/gabsfma/" target="_blank">
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+          </a>
+          <a class="socialnetwork_ancor" href="mailto:gabrielfmamaral@gmail.com">
+            <span class="fa-regular fa-envelope" aria-hidden="true"></span>
+          </a>
+          <span class="contact">contact me</span>
+        </div>
+      </footer>
 </body>
 </html>
