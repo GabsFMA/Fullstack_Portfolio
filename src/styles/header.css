@@ -25,12 +25,12 @@
 
 @media (max-width: 768px) {
     .header .navbar a {
-        font-size: 0.9rem; 
+        font-size: 0.7rem; 
     }
 }
 
 @media (max-width: 480px) {
     .header .navbar a {
-        font-size: 0.8rem; 
+        font-size: 0.5rem; 
     }
 }

@@ -54,6 +54,10 @@ html, body {
     color: #333;
 }
 
+.project_description_container{
+    height: 150px;
+}
+
 .project_description {
     font-size: 1rem;
     color: #666;
