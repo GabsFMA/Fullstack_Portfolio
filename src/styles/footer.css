@@ -35,6 +35,11 @@
     font-size: 16px;
 }
 
+.socialnetwork_ancor:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
 .contact {
     font-size: 12px;
     font-weight: lighter;
