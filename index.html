@@ -1,68 +1,482 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INÍCIO</title>
+    <title>Gabriel Francisco Monteiro Amaral - Desenvolvedor Full Stack</title>
     <link rel="stylesheet" href="/src/styles/index_style.css"/>
-    <link rel="stylesheet" href="/src/styles/header.css">
-    <link rel="stylesheet" href="/src/styles/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" type="image/png" href="/src/assets/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
       <nav class="navbar">
-        <a class="navbar_ancor" href="/src/index.html">
-          <span class="navbar_option">INÍCIO</span>
-        </a>
-        <a class="navbar_ancor" href="/src/pages/experiencePage.html">
-          <span class="navbar_option">EXPERIÊNCIAS</span>
-        </a>
-        <a class="navbar_ancor" href="/src/pages/skillsPage.html">
-          <span class="navbar_option">HABILIDADES</span>
-        </a>
-        <a class="navbar_ancor" href="/src/pages/projectsPage.html">
-          <span class="navbar_option">PROJETOS</span>
-        </a>
+        <div class="navbar-brand">
+          <span class="brand-text">GabsFMA</span>
+        </div>
+        <div class="navbar-menu">
+          <a class="navbar-link" href="#home">
+            <span class="navbar-option">INÍCIO</span>
+          </a>
+          <a class="navbar-link" href="#about">
+            <span class="navbar-option">SOBRE</span>
+          </a>
+          <a class="navbar-link" href="#skills">
+            <span class="navbar-option">HABILIDADES</span>
+          </a>
+          <a class="navbar-link" href="#projects">
+            <span class="navbar-option">PROJETOS</span>
+          </a>
+          <a class="navbar-link" href="#contact">
+            <span class="navbar-option">CONTATO</span>
+          </a>
+        </div>
+        <div class="navbar-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </header>
-    <main class="main_content">
-      <div class="introduction_container">
-        <div class="presentation_container">
-          <h2 class="greeting_container">Olá, me chamo</h2>
-          <h1 class="name_container">GABRIEL FRANCISCO MONTEIRO AMARAL</h1>
+
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h2 class="greeting">Olá, me chamo</h2>
+              <h1 class="name">Gabriel Francisco<br>Monteiro Amaral</h1>
+              <p class="title">Desenvolvedor Full Stack & Engenheiro de Computação</p>
+              <p class="description">
+                Estudante do 7° semestre de Engenharia de Computação na SENAI CIMATEC, 
+                apaixonado por tecnologia e desenvolvimento web. Transformo ideias em 
+                soluções digitais inovadoras.
+              </p>
+              <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <div class="profile-card">
+                <div class="profile-avatar">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="profile-info">
+                  <h3>Gabriel Amaral</h3>
+                  <p>Full Stack Developer</p>
+                  <div class="profile-stats">
+                    <div class="stat">
+                      <span class="stat-number">3+</span>
+                      <span class="stat-label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat">
+                      <span class="stat-number">15+</span>
+                      <span class="stat-label">Projetos Concluídos</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="about_container">
-          <p class="about">
-            Estudante do 7° semestre de Engenharia de computação na universidade
-            SENAI CIMATEC, sou brasileiro e entusiasta de tecnologias
-            relacionadas ao desenvolvimento web. Amante de café e música, além
-            de ser escritor nas horas vagas.
-          </p>
+        <div class="hero-scroll">
+          <span>Role para baixo</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p class="section-subtitle">Conheça um pouco mais sobre minha jornada</p>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Sou um desenvolvedor apaixonado por tecnologia, atualmente cursando o 7° semestre 
+                de Engenharia de Computação na SENAI CIMATEC. Minha jornada no desenvolvimento 
+                web começou há alguns anos e desde então venho me especializando em tecnologias 
+                modernas para criar soluções digitais eficientes e inovadoras.
+              </p>
+              <p>
+                Além da programação, sou um entusiasta de café e música, encontrando nessas 
+                paixões a inspiração para meus projetos. Nas horas vagas, dedico-me à escrita, 
+                explorando diferentes formas de expressão criativa que complementam minha 
+                abordagem técnica no desenvolvimento.
+              </p>
+              <div class="about-highlights">
+                <div class="highlight">
+                  <i class="fas fa-graduation-cap"></i>
+                  <div>
+                    <h4>Formação</h4>
+                    <p>Engenharia de Computação - SENAI CIMATEC</p>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <i class="fas fa-code"></i>
+                  <div>
+                    <h4>Especialização</h4>
+                    <p>Desenvolvimento Web Full Stack</p>
+                  </div>
+                </div>
+                <div class="highlight">
+                  <i class="fas fa-heart"></i>
+                  <div>
+                    <h4>Paixões</h4>
+                    <p>Café, Música e Escrita</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-image">
+              <div class="image-placeholder">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <p class="section-subtitle">Tecnologias e ferramentas que domino</p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-js-square"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-react"></i>
+                  <span>React</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-vue"></i>
+                  <span>Vue.js</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <i class="fab fa-node-js"></i>
+                  <span>Node.js</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-python"></i>
+                  <span>Python</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-database"></i>
+                  <span>MongoDB</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-server"></i>
+                  <span>Express.js</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-cloud"></i>
+                  <span>APIs REST</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Ferramentas</h3>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <i class="fab fa-git-alt"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-terminal"></i>
+                  <span>Terminal</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-figma"></i>
+                  <span>Figma</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-code-branch"></i>
+                  <span>VS Code</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <p class="section-subtitle">Alguns dos meus trabalhos mais recentes</p>
+          </div>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <i class="fas fa-ticket-alt"></i>
+              </div>
+              <div class="project-content">
+                <h3>Gerador de tickets</h3>
+                <p>Aplicação baseada em um formulário para eventos que leva à geração de um ticket com as informações inseridas no formulário.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/GabsFMA/Fullstack_ticket" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i>
+                    Código
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <i class="fas fa-calculator"></i>
+              </div>
+              <div class="project-content">
+                <h3>Calculadora de idade</h3>
+                <p>Aplicação feita para calcular quantos dias, meses e anos uma pessoa tem de vida, de acordo com a data inserida.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Vite</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/GabsFMA/Fullstack_AgeCalculatorApp" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i>
+                    Código
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <i class="fas fa-video"></i>
+              </div>
+              <div class="project-content">
+                <h3>Avaliador áudio visual</h3>
+                <p>Aplicação genérica de avaliação de produções audio visuais, informa onde cada produção está disponível e permite o usuário dizer o que achou.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Vite</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/diegoperpetuo/perpetual-web" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i>
+                    Código
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="experience-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Experiência</h2>
+            <p class="section-subtitle">Minha trajetória profissional e acadêmica</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Desenvolvedor Full Stack</h3>
+                <h4>Freelancer</h4>
+                <span class="timeline-date">2022 - Presente</span>
+                <p>Desenvolvimento de aplicações web completas para diversos clientes, utilizando tecnologias modernas como React, Node.js e MongoDB.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Estudante de Engenharia de Computação</h3>
+                <h4>SENAI CIMATEC</h4>
+                <span class="timeline-date">2021 - Presente</span>
+                <p>Cursando o 7° semestre com foco em desenvolvimento de software, algoritmos e estruturas de dados.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Desenvolvedor Frontend Jr.</h3>
+                <h4>Empresa Local</h4>
+                <span class="timeline-date">2021 - 2022</span>
+                <p>Desenvolvimento de interfaces responsivas e interativas, colaboração em equipe e implementação de designs modernos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Vamos Conversar?</h2>
+            <p class="section-subtitle">Entre em contato para discutir projetos ou oportunidades</p>
+          </div>
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>gabrielfmamaral@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Localização</h4>
+                  <p>Salvador, Bahia - Brasil</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>Disponibilidade</h4>
+                  <p>Disponível para projetos freelance</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form>
+                <div class="form-group">
+                  <input type="text" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="Seu email" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Assunto" required>
+                </div>
+                <div class="form-group">
+                  <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>Gabriel Francisco Monteiro Amaral</h3>
+            <p>Desenvolvedor Full Stack & Engenheiro de Computação</p>
+            <div class="footer-social">
+              <a href="https://github.com/GabsFMA" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/gabsfma/" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:gabrielfmamaral@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Navegação</h4>
+              <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Contato</h4>
+              <ul>
+                <li><a href="#contact">Entre em Contato</a></li>
+                <li><a href="mailto:gabrielfmamaral@gmail.com">Email</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Gabriel Francisco Monteiro Amaral. Todos os direitos reservados.</p>
         </div>
       </div>
-    </main>
-    <footer class="footer">
-        <div class="references_container">
-            <span class="reference">SENAI CIMATEC</span>
-            <div class="divisor"></div>
-            <span class="reference">Fullstack</span>
-            <div class="divisor"></div>
-            <span class="reference">GabsFMA</span>
-        </div>
-        <div class="socialnetwork_container">
-            <a class="socialnetwork_ancor" href="https://github.com/GabsFMA" target="_blank">
-                <span class="fa-brands fa-github"></span>
-            </a>
-            <a class="socialnetwork_ancor" href="https://www.linkedin.com/in/gabsfma/" target="_blank">
-                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-            </a>
-            <a class="socialnetwork_ancor" href="mailto:gabrielfmamaral@gmail.com">
-                <span class="fa-regular fa-envelope" aria-hidden="true"></span>
-            </a>
-            <span class="contact">contact me</span>
-        </div>
     </footer>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Mobile menu toggle
+      const navbarToggle = document.querySelector('.navbar-toggle');
+      const navbarMenu = document.querySelector('.navbar-menu');
+
+      navbarToggle.addEventListener('click', () => {
+        navbarMenu.classList.toggle('active');
+        navbarToggle.classList.toggle('active');
+      });
+
+      // Header scroll effect
+      window.addEventListener('scroll', () => {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 100) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+
+      // Form submission
+      document.querySelector('.contact-form form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Obrigado pela mensagem! Entrarei em contato em breve.');
+        this.reset();
+      });
+    </script>
   </body>
 </html>
+
